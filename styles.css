@@ -1,0 +1,47 @@
+body {
+  background-color: #233d4d;
+  color: #fcca46;
+  text-align: center;
+}
+#myHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+#kanhaji {
+  width: 300px;
+}
+h1 {
+  text-shadow: 0px 1px 2px #fe7f2d;
+}
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-solid.fa-circle-play.fa-4x {
+  padding: 10px 50px;
+}
+
+#progressBar {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 6px;
+  background: #fcca46;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+#progressBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #233d4d;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 5px solid #fcca46;
+  box-shadow: 0px 3px 1px #fe7f2d;
+}
+
+/* @media only screen and (max-width: 667px) {
+
+} */
